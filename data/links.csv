@@ -1,0 +1,4 @@
+link_id,from_patch,to_patch,segment_id,barrier,valid_from,valid_to
+L-01,H-01,H-02,S-01,道路,2024-01,2025-12
+L-02,H-02,H-03,S-02,施工便道,2025-04,2025-06
+L-03,H-01,H-03,S-03,河沟,2024-01,2025-12

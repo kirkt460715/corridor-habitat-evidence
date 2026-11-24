@@ -1,0 +1,10 @@
+{
+  "description": "生态廊道和设备观测的本地合成演练资料",
+  "sources": {
+    "patches.csv": ["patch_id", "area_ha", "vegetation", "survey_period"],
+    "links.csv": ["link_id", "from_patch", "to_patch", "segment_id", "barrier", "valid_from", "valid_to"],
+    "devices.csv": ["device_id", "segment_id", "active_from", "active_to", "uptime_ratio"],
+    "detections.csv": ["event_id", "device_id", "time", "species", "event_group"],
+    "works.csv": ["work_id", "segment_id", "change", "start_date", "end_date"]
+  }
+}
