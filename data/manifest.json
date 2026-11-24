@@ -1,10 +1,99 @@
 {
   "description": "生态廊道和设备观测的本地合成演练资料",
   "sources": {
-    "patches.csv": ["patch_id", "area_ha", "vegetation", "survey_period"],
-    "links.csv": ["link_id", "from_patch", "to_patch", "segment_id", "barrier", "valid_from", "valid_to"],
-    "devices.csv": ["device_id", "segment_id", "active_from", "active_to", "uptime_ratio"],
-    "detections.csv": ["event_id", "device_id", "time", "species", "event_group"],
-    "works.csv": ["work_id", "segment_id", "change", "start_date", "end_date"]
+    "patches.csv": [
+      "patch_id",
+      "area_ha",
+      "vegetation",
+      "survey_period"
+    ],
+    "links.csv": [
+      "link_id",
+      "from_patch",
+      "to_patch",
+      "segment_id",
+      "barrier",
+      "valid_from",
+      "valid_to"
+    ],
+    "devices.csv": [
+      "device_id",
+      "segment_id",
+      "active_from",
+      "active_to",
+      "uptime_ratio"
+    ],
+    "detections.csv": [
+      "event_id",
+      "device_id",
+      "time",
+      "species",
+      "event_group",
+      "sighting",
+      "direction"
+    ],
+    "works.csv": [
+      "work_id",
+      "segment_id",
+      "change",
+      "start_date",
+      "end_date"
+    ],
+    "effort.csv": [
+      "effort_id",
+      "device_id",
+      "from_at",
+      "to_at",
+      "segment_id",
+      "observable",
+      "event_capture"
+    ],
+    "proposals.csv": [
+      "proposal_id",
+      "stage",
+      "closed_segments",
+      "detour_segments",
+      "start_date",
+      "end_date",
+      "reserved_demand",
+      "crew_days",
+      "cost_yuan"
+    ],
+    "commitments.csv": [
+      "requirement_id",
+      "from_patch",
+      "to_patch",
+      "species",
+      "period",
+      "required_transits",
+      "shared_passage",
+      "capacity_per_night"
+    ],
+    "survey_slots.csv": [
+      "slot_id",
+      "device_id",
+      "segment_id",
+      "observable",
+      "from_at",
+      "to_at",
+      "crew_days"
+    ],
+    "effort_parallels.csv": [
+      "period_id",
+      "season",
+      "period_start",
+      "period_end",
+      "segment_id",
+      "effort_hours",
+      "observable",
+      "known_group_count"
+    ],
+    "work_limits.csv": [
+      "period",
+      "crew_days",
+      "budget_yuan",
+      "available_device_days",
+      "handover_compare_period"
+    ]
   }
 }
